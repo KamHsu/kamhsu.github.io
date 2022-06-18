@@ -1,0 +1,65 @@
+.bg-gold {
+    background-color: gold;
+}
+
+.text-brand {
+    color: crimson !important;
+}
+
+.text-brand:hover {
+    color: teal;
+}
+
+.nav-link {
+    color: sienna;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: sienna;
+}
+
+@media (min-width:992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+.carousel-control-next-icon {
+    background-image: url(image/play.png);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(image/left.png);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+.box {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    /* 絕對位置值 */
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    /* inset 可將上方合併成一行 */
+    inset: 0;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
