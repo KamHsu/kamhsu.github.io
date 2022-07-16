@@ -157,7 +157,7 @@ body {
     position: fixed;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to right, #fff, #000);
+    background: linear-gradient(to bottom, #fff, #000);
     mix-blend-mode: difference;
     width: 100%;
     display: flex;
